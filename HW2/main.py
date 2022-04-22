@@ -1,12 +1,12 @@
 import random
 
 theta = {'s1':0.2, 's2':0.5, 'p': 0.8, 'q': 0.2, 'r': 0.5}
-theta_init = {'s1':0.8, 's2':0.1, 'p': 0.7, 'q': 0.3, 'r': 0.4}
-theta_record = {'s1':[0.8], 's2':[0.1], 'p': [0.7], 'q': [0.3], 'r': [0.4]}
+theta_init = {'s1':0.8, 's2':0.1, 'p': 0.4, 'q': 0.5, 'r': 0.7}
+theta_record = {'s1':[0.8], 's2':[0.1], 'p': [0.4], 'q': [0.5], 'r': [0.7]}
 times = 10000
 x_seq = []
 eps = 0.001
-group_size = 20
+group_size = 500
 
 
 def generate_res():
